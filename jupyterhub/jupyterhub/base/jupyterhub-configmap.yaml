@@ -7,5 +7,6 @@ metadata:
 data:
   jupyterhub_config.py: ""
   jupyterhub_admins: "admin"
+  jupyterhub_config.py: c.OpenShiftOAuthenticator.validate_cert = False
   gpu_mode: ""
   singleuser_pvc_size: 2Gi
